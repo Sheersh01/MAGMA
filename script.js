@@ -65,72 +65,72 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-  ./Magma-main/frames00007.png
-  ./Magma-main/frames00010.png
-  ./Magma-main/frames00013.png
-  ./Magma-main/frames00016.png
-  ./Magma-main/frames00019.png
-  ./Magma-main/frames00022.png
-  ./Magma-main/frames00025.png
-  ./Magma-main/frames00028.png
-  ./Magma-main/frames00031.png
-  ./Magma-main/frames00034.png
-  ./Magma-main/frames00037.png
-  ./Magma-main/frames00040.png
-  ./Magma-main/frames00043.png
-  ./Magma-main/frames00046.png
-  ./Magma-main/frames00049.png
-  ./Magma-main/frames00052.png
-  ./Magma-main/frames00055.png
-  ./Magma-main/frames00058.png
-  ./Magma-main/frames00061.png
-  ./Magma-main/frames00064.png
-  ./Magma-main/frames00067.png
-  ./Magma-main/frames00070.png
-  ./Magma-main/frames00073.png
-  ./Magma-main/frames00076.png
-  ./Magma-main/frames00079.png
-  ./Magma-main/frames00082.png
-  ./Magma-main/frames00085.png
-  ./Magma-main/frames00088.png
-  ./Magma-main/frames00091.png
-  ./Magma-main/frames00094.png
-  ./Magma-main/frames00097.png
-  ./Magma-main/frames00100.png
-  ./Magma-main/frames00103.png
-  ./Magma-main/frames00106.png
-  ./Magma-main/frames00109.png
-  ./Magma-main/frames00112.png
-  ./Magma-main/frames00115.png
-  ./Magma-main/frames00118.png
-  ./Magma-main/frames00121.png
-  ./Magma-main/frames00124.png
-  ./Magma-main/frames00127.png
-  ./Magma-main/frames00130.png
-  ./Magma-main/frames00133.png
-  ./Magma-main/frames00136.png
-  ./Magma-main/frames00139.png
-  ./Magma-main/frames00142.png
-  ./Magma-main/frames00145.png
-  ./Magma-main/frames00148.png
-  ./Magma-main/frames00151.png
-  ./Magma-main/frames00154.png
-  ./Magma-main/frames00157.png
-  ./Magma-main/frames00160.png
-  ./Magma-main/frames00163.png
-  ./Magma-main/frames00166.png
-  ./Magma-main/frames00169.png
-  ./Magma-main/frames00172.png
-  ./Magma-main/frames00175.png
-  ./Magma-main/frames00178.png
-  ./Magma-main/frames00181.png
-  ./Magma-main/frames00184.png
-  ./Magma-main/frames00187.png
-  ./Magma-main/frames00190.png
-  ./Magma-main/frames00193.png
-  ./Magma-main/frames00196.png
-  ./Magma-main/frames00199.png
-  ./Magma-main/frames00202.png
+  ./Frames/frames00007.png
+  ./Frames/frames00010.png
+  ./Frames/frames00013.png
+  ./Frames/frames00016.png
+  ./Frames/frames00019.png
+  ./Frames/frames00022.png
+  ./Frames/frames00025.png
+  ./Frames/frames00028.png
+  ./Frames/frames00031.png
+  ./Frames/frames00034.png
+  ./Frames/frames00037.png
+  ./Frames/frames00040.png
+  ./Frames/frames00043.png
+  ./Frames/frames00046.png
+  ./Frames/frames00049.png
+  ./Frames/frames00052.png
+  ./Frames/frames00055.png
+  ./Frames/frames00058.png
+  ./Frames/frames00061.png
+  ./Frames/frames00064.png
+  ./Frames/frames00067.png
+  ./Frames/frames00070.png
+  ./Frames/frames00073.png
+  ./Frames/frames00076.png
+  ./Frames/frames00079.png
+  ./Frames/frames00082.png
+  ./Frames/frames00085.png
+  ./Frames/frames00088.png
+  ./Frames/frames00091.png
+  ./Frames/frames00094.png
+  ./Frames/frames00097.png
+  ./Frames/frames00100.png
+  ./Frames/frames00103.png
+  ./Frames/frames00106.png
+  ./Frames/frames00109.png
+  ./Frames/frames00112.png
+  ./Frames/frames00115.png
+  ./Frames/frames00118.png
+  ./Frames/frames00121.png
+  ./Frames/frames00124.png
+  ./Frames/frames00127.png
+  ./Frames/frames00130.png
+  ./Frames/frames00133.png
+  ./Frames/frames00136.png
+  ./Frames/frames00139.png
+  ./Frames/frames00142.png
+  ./Frames/frames00145.png
+  ./Frames/frames00148.png
+  ./Frames/frames00151.png
+  ./Frames/frames00154.png
+  ./Frames/frames00157.png
+  ./Frames/frames00160.png
+  ./Frames/frames00163.png
+  ./Frames/frames00166.png
+  ./Frames/frames00169.png
+  ./Frames/frames00172.png
+  ./Frames/frames00175.png
+  ./Frames/frames00178.png
+  ./Frames/frames00181.png
+  ./Frames/frames00184.png
+  ./Frames/frames00187.png
+  ./Frames/frames00190.png
+  ./Frames/frames00193.png
+  ./Frames/frames00196.png
+  ./Frames/frames00199.png
+  ./Frames/frames00202.png
  `;
   return data.split("\n")[index];
 }
@@ -234,73 +234,73 @@ function canvas1(){
   
   function files(index) {
   var data = `
-  ./Magma-main/bridges00004.png
- ./Magma-main/bridges00007.png
- ./Magma-main/bridges00010.png
- ./Magma-main/bridges00013.png
- ./Magma-main/bridges00016.png
- ./Magma-main/bridges00019.png
- ./Magma-main/bridges00022.png
- ./Magma-main/bridges00025.png
- ./Magma-main/bridges00028.png
- ./Magma-main/bridges00031.png
- ./Magma-main/bridges00034.png
- ./Magma-main/bridges00037.png
- ./Magma-main/bridges00040.png
- ./Magma-main/bridges00043.png
- ./Magma-main/bridges00046.png
- ./Magma-main/bridges00049.png
- ./Magma-main/bridges00052.png
- ./Magma-main/bridges00055.png
- ./Magma-main/bridges00058.png
- ./Magma-main/bridges00061.png
- ./Magma-main/bridges00064.png
- ./Magma-main/bridges00067.png
- ./Magma-main/bridges00070.png
- ./Magma-main/bridges00073.png
- ./Magma-main/bridges00076.png
- ./Magma-main/bridges00079.png
- ./Magma-main/bridges00082.png
- ./Magma-main/bridges00085.png
- ./Magma-main/bridges00088.png
- ./Magma-main/bridges00091.png
- ./Magma-main/bridges00094.png
- ./Magma-main/bridges00097.png
- ./Magma-main/bridges00100.png
- ./Magma-main/bridges00103.png
- ./Magma-main/bridges00106.png
- ./Magma-main/bridges00109.png
- ./Magma-main/bridges00112.png
- ./Magma-main/bridges00115.png
- ./Magma-main/bridges00118.png
- ./Magma-main/bridges00121.png
- ./Magma-main/bridges00124.png
- ./Magma-main/bridges00127.png
- ./Magma-main/bridges00130.png
- ./Magma-main/bridges00133.png
- ./Magma-main/bridges00136.png
- ./Magma-main/bridges00139.png
- ./Magma-main/bridges00142.png
- ./Magma-main/bridges00145.png
- ./Magma-main/bridges00148.png
- ./Magma-main/bridges00151.png
- ./Magma-main/bridges00154.png
- ./Magma-main/bridges00157.png
- ./Magma-main/bridges00160.png
- ./Magma-main/bridges00163.png
- ./Magma-main/bridges00166.png
- ./Magma-main/bridges00169.png
- ./Magma-main/bridges00172.png
- ./Magma-main/bridges00175.png
- ./Magma-main/bridges00178.png
- ./Magma-main/bridges00181.png
- ./Magma-main/bridges00184.png
- ./Magma-main/bridges00187.png
- ./Magma-main/bridges00190.png
- ./Magma-main/bridges00193.png
- ./Magma-main/bridges00196.png
- ./Magma-main/bridges00199.png
- ./Magma-main/bridges00202.png
+ ./Bridges/bridges00004.png
+./Bridges/bridges00007.png
+./Bridges/bridges00010.png
+./Bridges/bridges00013.png
+./Bridges/bridges00016.png
+./Bridges/bridges00019.png
+./Bridges/bridges00022.png
+./Bridges/bridges00025.png
+./Bridges/bridges00028.png
+./Bridges/bridges00031.png
+./Bridges/bridges00034.png
+./Bridges/bridges00037.png
+./Bridges/bridges00040.png
+./Bridges/bridges00043.png
+./Bridges/bridges00046.png
+./Bridges/bridges00049.png
+./Bridges/bridges00052.png
+./Bridges/bridges00055.png
+./Bridges/bridges00058.png
+./Bridges/bridges00061.png
+./Bridges/bridges00064.png
+./Bridges/bridges00067.png
+./Bridges/bridges00070.png
+./Bridges/bridges00073.png
+./Bridges/bridges00076.png
+./Bridges/bridges00079.png
+./Bridges/bridges00082.png
+./Bridges/bridges00085.png
+./Bridges/bridges00088.png
+./Bridges/bridges00091.png
+./Bridges/bridges00094.png
+./Bridges/bridges00097.png
+./Bridges/bridges00100.png
+./Bridges/bridges00103.png
+./Bridges/bridges00106.png
+./Bridges/bridges00109.png
+./Bridges/bridges00112.png
+./Bridges/bridges00115.png
+./Bridges/bridges00118.png
+./Bridges/bridges00121.png
+./Bridges/bridges00124.png
+./Bridges/bridges00127.png
+./Bridges/bridges00130.png
+./Bridges/bridges00133.png
+./Bridges/bridges00136.png
+./Bridges/bridges00139.png
+./Bridges/bridges00142.png
+./Bridges/bridges00145.png
+./Bridges/bridges00148.png
+./Bridges/bridges00151.png
+./Bridges/bridges00154.png
+./Bridges/bridges00157.png
+./Bridges/bridges00160.png
+./Bridges/bridges00163.png
+./Bridges/bridges00166.png
+./Bridges/bridges00169.png
+./Bridges/bridges00172.png
+./Bridges/bridges00175.png
+./Bridges/bridges00178.png
+./Bridges/bridges00181.png
+./Bridges/bridges00184.png
+./Bridges/bridges00187.png
+./Bridges/bridges00190.png
+./Bridges/bridges00193.png
+./Bridges/bridges00196.png
+./Bridges/bridges00199.png
+./Bridges/bridges00202.png
   `;
   return data.split("\n")[index];
   }
@@ -674,6 +674,8 @@ gsap.from(".page10-ryt-in",{
  },
 });
 
+
+
 gsap.from("#page11>h1",{
     opacity:0.0,
 //  stagger:0.4,
@@ -728,3 +730,208 @@ gsap.from("#page13 h3,#page13 button",{
     scrub:2
  },
 });
+
+function canvas3(){
+  const canvas = document.querySelector("#page10-2>canvas");
+const context = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+
+window.addEventListener("resize", function () {
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+render();
+});
+
+function files(index) {
+var data = `
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0001.webp
+./Spin2/0002.webp
+./Spin2/0003.webp
+./Spin2/0004.webp
+./Spin2/0005.webp
+./Spin2/0006.webp
+./Spin2/0007.webp
+./Spin2/0008.webp
+./Spin2/0009.webp
+./Spin2/0010.webp
+./Spin2/0011.webp
+./Spin2/0012.webp
+./Spin2/0013.webp
+./Spin2/0014.webp
+./Spin2/0015.webp
+./Spin2/0016.webp
+./Spin2/0017.webp
+./Spin2/0018.webp
+./Spin2/0019.webp
+./Spin2/0020.webp
+./Spin2/0021.webp
+./Spin2/0022.webp
+./Spin2/0023.webp
+./Spin2/0024.webp
+./Spin2/0025.webp
+./Spin2/0026.webp
+./Spin2/0027.webp
+./Spin2/0028.webp
+./Spin2/0029.webp
+./Spin2/0030.webp
+./Spin2/0031.webp
+./Spin2/0032.webp
+./Spin2/0033.webp
+./Spin2/0034.webp
+./Spin2/0035.webp
+./Spin2/0036.webp
+./Spin2/0037.webp
+./Spin2/0038.webp
+./Spin2/0039.webp
+./Spin2/0040.webp
+./Spin2/0041.webp
+./Spin2/0042.webp
+./Spin2/0043.webp
+./Spin2/0044.webp
+./Spin2/0045.webp
+./Spin2/0046.webp
+./Spin2/0047.webp
+./Spin2/0048.webp
+./Spin2/0049.webp
+./Spin2/0050.webp
+./Spin2/0051.webp
+./Spin2/0052.webp
+./Spin2/0053.webp
+./Spin2/0054.webp
+./Spin2/0055.webp
+./Spin2/0056.webp
+./Spin2/0057.webp
+./Spin2/0058.webp
+./Spin2/0059.webp
+./Spin2/0060.webp
+./Spin2/0061.webp
+./Spin2/0062.webp
+./Spin2/0063.webp
+./Spin2/0064.webp
+./Spin2/0065.webp
+./Spin2/0066.webp
+./Spin2/0067.webp
+./Spin2/0068.webp
+./Spin2/0069.webp
+./Spin2/0070.webp
+./Spin2/0071.webp
+./Spin2/0072.webp
+./Spin2/0073.webp
+./Spin2/0074.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+./Spin2/0075.webp
+
+
+`;
+return data.split("\n")[index];
+}
+
+const frameCount = 105;
+
+const images = [];
+const imageSeq = {
+frame: 1,
+};
+
+for (let i = 0; i < frameCount; i++) {
+const img = new Image();
+img.src = files(i);
+images.push(img);
+}
+
+gsap.to(imageSeq, {
+frame: frameCount - 1,
+snap: "frame",
+ease: `none`,
+scrollTrigger: {
+  scrub: .5,
+  trigger: `#page10-2`,
+  start: `top bottom`,
+  end: `250% top`,
+  scroller: `#main`,
+},
+onUpdate: render,
+});
+
+images[1].onload = render;
+
+function render() {
+scaleImage(images[imageSeq.frame], context);
+}
+
+function scaleImage(img, ctx) {
+var canvas = ctx.canvas;
+var hRatio = canvas.width / img.width;
+var vRatio = canvas.height / img.height;
+var ratio = Math.max(hRatio, vRatio);
+var centerShift_x = (canvas.width - img.width * ratio) / 2;
+var centerShift_y = (canvas.height - img.height * ratio) / 2;
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+ctx.drawImage(
+  img,
+  0,
+  0,
+  img.width,
+  img.height,
+  centerShift_x,
+  centerShift_y,
+  img.width * ratio,
+  img.height * ratio
+);
+}
+ScrollTrigger.create({
+
+trigger: "#page10-2",
+pin: true,
+scroller: `#main`,
+start: `top top`,
+end: `250% top`,
+});
+}
+canvas3()
+
+gsap.to("#page10-2-txt",{
+  scrollTrigger:{
+      trigger:"#page10-2",
+      scroller:"#main",
+      // markers:true,
+      start:"top bottom",
+      end:"bottom top",
+      scrub:2,
+  },
+  // transform: y
+  // scale:3,
+  // duration:2
+})
